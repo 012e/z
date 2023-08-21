@@ -171,4 +171,8 @@ function __z -d "Jump to a recent directory."
     else
         pushd "$target"
     end
+
+    if test -n "$Z_AFTER"
+        eval $Z_AFTER
+    end
 end
