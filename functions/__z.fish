@@ -173,6 +173,6 @@ function __z -d "Jump to a recent directory."
     end
 
     if test -n "$Z_AFTER"
-        eval $Z_AFTER
+        eval "$Z_AFTER"
     end
 end
