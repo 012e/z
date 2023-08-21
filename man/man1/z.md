@@ -80,3 +80,6 @@ For more details about frecency, see https://github.com/rupa/z.
     For example `set -p Z_EXCLUDE "^/mnt/workVPN"` will block all paths starting
     with `/mnt/workVPN`. `set -P Z_EXCLUDE "^/mnt/workVPN\$"` would exclude
     exactly that directory, but not any of `/mnt/workVPN`'s subdirectories.
+
+  * `set -U Z_AFTER "anycmd"`:
+    Eval `anycmd` **after** moved into the new directory (default is ``). 
